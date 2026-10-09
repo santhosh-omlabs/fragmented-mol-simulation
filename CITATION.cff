@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Cite this repository for the pipeline and notes. Cite the papers below for the methods."
+title: "Fragment-based sample-based quantum diagonalization on ammonia (6-31G)"
+type: software
+version: 0.2.0
+date-released: 2026-10-09
+license: MIT
+authors:
+  - family-names: Reddy
+    given-names: Santhosh
+abstract: "A tutorial that compares exact FCI, whole-molecule SQD and fragment SQD on NH3 in 6-31G, tests the circuit against free classical baselines at matched subspace size, adds one gateway run and three IBM hardware jobs, and ends with a water-dimer study whose pre-registered target was not met. Includes negative results."
+keywords: [ammonia, water dimer, fragmentation, embedding, SQD, FCI, Qiskit, IBM Quantum]
+references:
+  - type: article
+    title: "Demonstration of Parallel Multi-QPU Execution for Fragment-Based Quantum Chemistry Using On-Premises Hardware"
+    authors:
+      - family-names: Herrmann
+        given-names: Nils
+    notes: "arXiv:2610.07702 (first author listed; see the paper for the full list)"
+  - type: article
+    title: "Quantum Computations on Fusion Blanket Molten Salts"
+    authors:
+      - family-names: Das
+        given-names: Susanta
+    notes: "arXiv:2606.30402 (first author listed; see the paper for the full list)"

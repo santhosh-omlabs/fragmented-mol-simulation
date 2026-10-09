@@ -1,0 +1,24 @@
+{
+  "what": "fragsim one-shot embedding vs Vayesta EWF (IAO+PAO atomic fragments, DMET bath, FCI solver). All-electron, no truncation of empty orbitals.",
+  "system": "NH3 pyramidal, N-H 1.012 A, H-N-H 106.7 deg, 6-31G",
+  "command": "VAYESTA_PATH=<Vayesta checkout> python scripts/crosscheck_vayesta.py",
+  "vayesta_commit": "7f1639d",
+  "e_hf_hartree": -56.16106308,
+  "rows": [
+    {
+      "partition": "N | H1 | H2 | H3",
+      "fragsim_hartree": -56.26404822,
+      "vayesta_hartree": -56.2645931
+    },
+    {
+      "partition": "N+H1 | H2 | H3",
+      "fragsim_hartree": -56.27326027,
+      "vayesta_hartree": -56.27371184
+    },
+    {
+      "partition": "N+H1+H2 | H3",
+      "fragsim_hartree": -56.28276578,
+      "vayesta_hartree": -56.28303551
+    }
+  ]
+}

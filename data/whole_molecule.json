@@ -1,0 +1,33 @@
+{
+  "what": "whole molecule, 28 qubits, heavy-hex LUCJ 1 layer, IBM hardware raw",
+  "shots": 10000,
+  "right_count_fraction": 0.0397,
+  "distinct_strings_after_recovery": 985,
+  "matched_error_kcal_mol": {
+    "8": 48.42551620048487,
+    "16": 46.22654508521791,
+    "32": 22.026907946640343,
+    "64": 9.012085698187391,
+    "128": 4.864977373109551,
+    "256": 2.0654197221315527
+  },
+  "sqd_loop": {
+    "energy_error_kcal_mol": 3.4327783655429327,
+    "strings": 314,
+    "determinants": 98596,
+    "history_kcal_mol": [
+      10.671251210768242,
+      4.4537207919083235,
+      3.4327783655429327,
+      3.9690795412464595,
+      3.8572240303677927
+    ]
+  },
+  "controls_at_k": {
+    "k": 314,
+    "excitation_order": 0.7787757473113323,
+    "ccsd_ranked": 0.7787757473113323,
+    "random_bits_sqd_loop": 4.467125878266612,
+    "random_bits_right_count_fraction": 0.0038
+  }
+}

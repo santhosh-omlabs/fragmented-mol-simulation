@@ -1,0 +1,336 @@
+{
+  "what": "SQD energy error (kcal/mol) vs exact cluster FCI at matched number of strings per spin",
+  "fragment": "N fragment of rung 1, 3 empty orbitals kept: 7 orbitals, 14 qubits, 1,225 determinants",
+  "circuit": "LUCJ from CCSD amplitudes, 2 layers",
+  "noise_model": "depolarizing, 0.5% per CNOT, 0.05% per one-qubit gate, 1000 shots (illustrative)",
+  "n_random_trials": 100,
+  "n_circuit_seeds": 50,
+  "rows": [
+    {
+      "k": 1,
+      "determinants": 1,
+      "oracle": 43.280612092382235,
+      "circuit_infinite_shots": 43.280612092382235,
+      "excitation_ordered": 43.280612092382235,
+      "ccsd_ranked_classical": 43.280612092382235,
+      "noisy_circuit_recovered": 43.280612092382235,
+      "circuit_finite_shots_median": 43.280612092382235,
+      "circuit_finite_shots_q25_q75": [
+        43.280612092382235,
+        43.280612092382235
+      ],
+      "circuit_finite_seeds_reaching_k": 50,
+      "circuit_shots_to_reach_k_median": 1.0,
+      "random_median": 2304.7842554529166,
+      "random_q25_q75": [
+        1792.5757179541208,
+        2955.057764996297
+      ],
+      "random_with_hf_median": 43.280612092382235,
+      "random_with_hf_q25_q75": [
+        43.280612092382235,
+        43.280612092382235
+      ]
+    },
+    {
+      "k": 2,
+      "determinants": 4,
+      "oracle": 36.27155912255553,
+      "circuit_infinite_shots": 36.27155912255553,
+      "excitation_ordered": 42.90796601462947,
+      "ccsd_ranked_classical": 36.27155912255553,
+      "noisy_circuit_recovered": 36.27155912255553,
+      "circuit_finite_shots_median": 39.19996516343872,
+      "circuit_finite_shots_q25_q75": [
+        36.27157435353604,
+        39.19996569117319
+      ],
+      "circuit_finite_seeds_reaching_k": 50,
+      "circuit_shots_to_reach_k_median": 16.5,
+      "random_median": 1792.559684642142,
+      "random_q25_q75": [
+        1233.2912936009122,
+        2304.783823268736
+      ],
+      "random_with_hf_median": 43.28061209219943,
+      "random_with_hf_q25_q75": [
+        42.63506497795099,
+        43.28061209237276
+      ]
+    },
+    {
+      "k": 3,
+      "determinants": 9,
+      "oracle": 24.62748757909484,
+      "circuit_infinite_shots": 24.62748757909484,
+      "excitation_ordered": 42.55432167726995,
+      "ccsd_ranked_classical": 24.62748757909484,
+      "noisy_circuit_recovered": 24.62748757909484,
+      "circuit_finite_shots_median": 32.87011814028108,
+      "circuit_finite_shots_q25_q75": [
+        27.34043184869752,
+        35.33155645819038
+      ],
+      "circuit_finite_seeds_reaching_k": 50,
+      "circuit_shots_to_reach_k_median": 31.0,
+      "random_median": 1248.5823384990736,
+      "random_q25_q75": [
+        1084.707855241056,
+        2142.2216101851195
+      ],
+      "random_with_hf_median": 42.720581080850465,
+      "random_with_hf_q25_q75": [
+        39.56298401043137,
+        43.28061209219832
+      ]
+    },
+    {
+      "k": 4,
+      "determinants": 16,
+      "oracle": 12.274639487022508,
+      "circuit_infinite_shots": 12.274639487022508,
+      "excitation_ordered": 38.22410861247336,
+      "ccsd_ranked_classical": 12.274639487022508,
+      "noisy_circuit_recovered": 24.4481037200642,
+      "circuit_finite_shots_median": 24.275566346523746,
+      "circuit_finite_shots_q25_q75": [
+        21.630584893523196,
+        28.14100407165332
+      ],
+      "circuit_finite_seeds_reaching_k": 50,
+      "circuit_shots_to_reach_k_median": 55.5,
+      "random_median": 1225.6900569856189,
+      "random_q25_q75": [
+        941.3300876097244,
+        1336.1804812234566
+      ],
+      "random_with_hf_median": 42.090681034795494,
+      "random_with_hf_q25_q75": [
+        38.57310195756717,
+        42.85373527407987
+      ]
+    },
+    {
+      "k": 5,
+      "determinants": 25,
+      "oracle": 8.97302694733828,
+      "circuit_infinite_shots": 11.229168770403357,
+      "excitation_ordered": 26.669434165326937,
+      "ccsd_ranked_classical": 8.97302694733828,
+      "noisy_circuit_recovered": 23.7261186269982,
+      "circuit_finite_shots_median": 20.292293061895588,
+      "circuit_finite_shots_q25_q75": [
+        10.81024611785573,
+        22.260097291352906
+      ],
+      "circuit_finite_seeds_reaching_k": 50,
+      "circuit_shots_to_reach_k_median": 98.5,
+      "random_median": 1084.8874120183252,
+      "random_q25_q75": [
+        936.3543711132679,
+        1251.405697899147
+      ],
+      "random_with_hf_median": 39.23122000104094,
+      "random_with_hf_q25_q75": [
+        36.106948967737324,
+        42.649956428968665
+      ]
+    },
+    {
+      "k": 6,
+      "determinants": 36,
+      "oracle": 7.460681770275894,
+      "circuit_infinite_shots": 9.540220246020075,
+      "excitation_ordered": 26.410179825107054,
+      "ccsd_ranked_classical": 7.460681087478174,
+      "noisy_circuit_recovered": 11.386988532434021,
+      "circuit_finite_shots_median": 9.540220246020075,
+      "circuit_finite_shots_q25_q75": [
+        9.000693036881591,
+        17.53281529982417
+      ],
+      "circuit_finite_seeds_reaching_k": 50,
+      "circuit_shots_to_reach_k_median": 165.5,
+      "random_median": 1038.523645320699,
+      "random_q25_q75": [
+        932.8274226750573,
+        1229.111916216107
+      ],
+      "random_with_hf_median": 38.42175440646625,
+      "random_with_hf_q25_q75": [
+        35.579228768626216,
+        42.04101044907379
+      ]
+    },
+    {
+      "k": 8,
+      "determinants": 64,
+      "oracle": 5.703259650299362,
+      "circuit_infinite_shots": 4.756685102244427,
+      "excitation_ordered": 10.516859361861426,
+      "ccsd_ranked_classical": 5.703259650299362,
+      "noisy_circuit_recovered": 10.031412477128441,
+      "circuit_finite_shots_median": 6.223737522187043,
+      "circuit_finite_shots_q25_q75": [
+        4.756685102244427,
+        7.558686546371981
+      ],
+      "circuit_finite_seeds_reaching_k": 50,
+      "circuit_shots_to_reach_k_median": 439.0,
+      "random_median": 941.7734281890662,
+      "random_q25_q75": [
+        664.2745868925819,
+        1159.3120953169719
+      ],
+      "random_with_hf_median": 35.9903408581326,
+      "random_with_hf_q25_q75": [
+        32.370076748603594,
+        39.79591424498322
+      ]
+    },
+    {
+      "k": 10,
+      "determinants": 100,
+      "oracle": 3.7939837376916636,
+      "circuit_infinite_shots": 4.406786686859176,
+      "excitation_ordered": 9.739990332055484,
+      "ccsd_ranked_classical": 4.533017929169184,
+      "noisy_circuit_recovered": 9.191369369367344,
+      "circuit_finite_shots_median": 4.406786686859176,
+      "circuit_finite_shots_q25_q75": [
+        4.406786686859176,
+        4.406786686859176
+      ],
+      "circuit_finite_seeds_reaching_k": 50,
+      "circuit_shots_to_reach_k_median": 1372.5,
+      "random_median": 937.9746025608282,
+      "random_q25_q75": [
+        870.2206186936994,
+        1079.9053928334235
+      ],
+      "random_with_hf_median": 34.53426844499204,
+      "random_with_hf_q25_q75": [
+        31.228055087821367,
+        38.33263944808182
+      ]
+    },
+    {
+      "k": 12,
+      "determinants": 144,
+      "oracle": 2.8679115939104225,
+      "circuit_infinite_shots": 4.187081155992622,
+      "excitation_ordered": 8.420169054019972,
+      "ccsd_ranked_classical": 2.8679115939104225,
+      "noisy_circuit_recovered": 8.574718754955981,
+      "circuit_finite_shots_median": 4.187081155992622,
+      "circuit_finite_shots_q25_q75": [
+        4.187081155992622,
+        4.187081155992622
+      ],
+      "circuit_finite_seeds_reaching_k": 26,
+      "circuit_shots_to_reach_k_median": 10148.0,
+      "random_median": 932.3575540737286,
+      "random_q25_q75": [
+        37.081899488367895,
+        1041.2865411620307
+      ],
+      "random_with_hf_median": 32.749514909477064,
+      "random_with_hf_q25_q75": [
+        28.07654894303745,
+        35.27946864462806
+      ]
+    },
+    {
+      "k": 16,
+      "determinants": 256,
+      "oracle": 0.7029754954416837,
+      "circuit_infinite_shots": 2.645805398579557,
+      "excitation_ordered": 3.5643094914920157,
+      "ccsd_ranked_classical": 0.7029754954416837,
+      "noisy_circuit_recovered": 6.787620918638179,
+      "circuit_finite_shots_median": null,
+      "circuit_finite_shots_q25_q75": null,
+      "circuit_finite_seeds_reaching_k": 0,
+      "circuit_shots_to_reach_k_median": null,
+      "random_median": 862.9754937503269,
+      "random_q25_q75": [
+        25.546390982239252,
+        933.5903539701355
+      ],
+      "random_with_hf_median": 27.668106653054515,
+      "random_with_hf_q25_q75": [
+        20.14395125635825,
+        32.262956398471616
+      ]
+    },
+    {
+      "k": 20,
+      "determinants": 400,
+      "oracle": 0.10810448429504609,
+      "circuit_infinite_shots": 0.7358006520072751,
+      "excitation_ordered": 0.6752275548142369,
+      "ccsd_ranked_classical": 0.30286809045253144,
+      "noisy_circuit_recovered": 0.6772199961370082,
+      "circuit_finite_shots_median": null,
+      "circuit_finite_shots_q25_q75": null,
+      "circuit_finite_seeds_reaching_k": 0,
+      "circuit_shots_to_reach_k_median": null,
+      "random_median": 29.371499322834133,
+      "random_q25_q75": [
+        19.35883520339553,
+        868.509496973229
+      ],
+      "random_with_hf_median": 19.62029418990076,
+      "random_with_hf_q25_q75": [
+        16.198685126969288,
+        25.348302224607114
+      ]
+    },
+    {
+      "k": 24,
+      "determinants": 576,
+      "oracle": 0.06458843586503739,
+      "circuit_infinite_shots": 0.06619795206570875,
+      "excitation_ordered": 0.653132398120167,
+      "ccsd_ranked_classical": 0.27574278479318537,
+      "noisy_circuit_recovered": 0.457559401388309,
+      "circuit_finite_shots_median": null,
+      "circuit_finite_shots_q25_q75": null,
+      "circuit_finite_seeds_reaching_k": 0,
+      "circuit_shots_to_reach_k_median": null,
+      "random_median": 19.54710271197698,
+      "random_q25_q75": [
+        14.933923315279012,
+        861.830265437009
+      ],
+      "random_with_hf_median": 16.913091530150865,
+      "random_with_hf_q25_q75": [
+        7.826547774695053,
+        22.168743929331647
+      ]
+    },
+    {
+      "k": 35,
+      "determinants": 1225,
+      "oracle": 1.6185165101489929e-09,
+      "circuit_infinite_shots": 1.6185165101489929e-09,
+      "excitation_ordered": 1.6185165101489929e-09,
+      "ccsd_ranked_classical": 1.6185165101489929e-09,
+      "noisy_circuit_recovered": 1.6185165101489929e-09,
+      "circuit_finite_shots_median": null,
+      "circuit_finite_shots_q25_q75": null,
+      "circuit_finite_seeds_reaching_k": 0,
+      "circuit_shots_to_reach_k_median": null,
+      "random_median": 1.6185165101489929e-09,
+      "random_q25_q75": [
+        1.6185165101489929e-09,
+        1.6185165101489929e-09
+      ],
+      "random_with_hf_median": 1.6185165101489929e-09,
+      "random_with_hf_q25_q75": [
+        1.6185165101489929e-09,
+        1.6185165101489929e-09
+      ]
+    }
+  ]
+}

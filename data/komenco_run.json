@@ -1,0 +1,56 @@
+{
+  "what": "14-qubit N-fragment LUCJ circuit through the Komenco gateway (pipeline demonstration)",
+  "gateway": "http://168.220.234.162:80/api/komenco (vendor trial, treated as a classical emulator)",
+  "requests": 2,
+  "qubits": 14,
+  "gates": 1428,
+  "cx_gates": 420,
+  "seconds": 1.9405297740013339,
+  "bitstrings_returned": 16383,
+  "total_variation_vs_local_exact": 3.0731354444894403e-14,
+  "shots_drawn": 10000,
+  "sqd_strings": 11,
+  "sqd_error_kcal_mol": 4.2070651774355845,
+  "rows": [
+    {
+      "k": 4,
+      "gateway_ranked": 12.27463948701359,
+      "local_ideal_ranked": 12.27463948701359
+    },
+    {
+      "k": 6,
+      "gateway_ranked": 9.540220246026763,
+      "local_ideal_ranked": 9.540220246026763
+    },
+    {
+      "k": 8,
+      "gateway_ranked": 4.7566851022600325,
+      "local_ideal_ranked": 4.7566851022600325
+    },
+    {
+      "k": 10,
+      "gateway_ranked": 4.406786686868093,
+      "local_ideal_ranked": 4.406786686868093
+    },
+    {
+      "k": 12,
+      "gateway_ranked": 4.187081155983704,
+      "local_ideal_ranked": 4.187081155983704
+    },
+    {
+      "k": 16,
+      "gateway_ranked": 2.6458053985817864,
+      "local_ideal_ranked": 2.6458053985817864
+    },
+    {
+      "k": 20,
+      "gateway_ranked": 0.7358006520295687,
+      "local_ideal_ranked": 0.7358006520295687
+    },
+    {
+      "k": 35,
+      "gateway_ranked": 1.6318926796543566e-09,
+      "local_ideal_ranked": 1.6318926796543566e-09
+    }
+  ]
+}

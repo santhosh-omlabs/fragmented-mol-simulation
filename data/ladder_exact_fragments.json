@@ -1,0 +1,262 @@
+{
+  "system": "NH3 pyramidal, N-H 1.012 A, H-N-H 106.7 deg",
+  "basis": "6-31g",
+  "frozen_core": "N 1s",
+  "e_hf": -56.1610630813436,
+  "e_fci": -56.29151384996823,
+  "solver": "FCI on fragment + bath; MP2 natural virtuals; projected-amplitude energy",
+  "rows": [
+    {
+      "rung": "1: N | H1 | H2 | H3",
+      "virtuals_kept": 0,
+      "energy_hartree": -56.161063081343656,
+      "error_kcal_mol": 81.85909659422403,
+      "qubits_per_fragment": [
+        8,
+        2,
+        2,
+        2
+      ],
+      "seconds": 1.9
+    },
+    {
+      "rung": "1: N | H1 | H2 | H3",
+      "virtuals_kept": 1,
+      "energy_hartree": -56.18798023340858,
+      "error_kcal_mol": 64.96832796053887,
+      "qubits_per_fragment": [
+        10,
+        4,
+        4,
+        4
+      ],
+      "seconds": 2.1
+    },
+    {
+      "rung": "1: N | H1 | H2 | H3",
+      "virtuals_kept": 2,
+      "energy_hartree": -56.2041117886787,
+      "error_kcal_mol": 54.84562377876281,
+      "qubits_per_fragment": [
+        12,
+        6,
+        6,
+        6
+      ],
+      "seconds": 2.8
+    },
+    {
+      "rung": "1: N | H1 | H2 | H3",
+      "virtuals_kept": 3,
+      "energy_hartree": -56.22964560898954,
+      "error_kcal_mol": 38.82290896241722,
+      "qubits_per_fragment": [
+        14,
+        6,
+        6,
+        6
+      ],
+      "seconds": 7.1
+    },
+    {
+      "rung": "1: N | H1 | H2 | H3",
+      "virtuals_kept": 4,
+      "energy_hartree": -56.25444954083105,
+      "error_kcal_mol": 23.258206094521054,
+      "qubits_per_fragment": [
+        16,
+        6,
+        6,
+        6
+      ],
+      "seconds": 6.0
+    },
+    {
+      "rung": "1: N | H1 | H2 | H3",
+      "virtuals_kept": 5,
+      "energy_hartree": -56.257571865262946,
+      "error_kcal_mol": 21.29891785142207,
+      "qubits_per_fragment": [
+        18,
+        6,
+        6,
+        6
+      ],
+      "seconds": 10.0
+    },
+    {
+      "rung": "1: N | H1 | H2 | H3",
+      "virtuals_kept": null,
+      "energy_hartree": -56.26399970982784,
+      "error_kcal_mol": 17.26538432242606,
+      "qubits_per_fragment": [
+        22,
+        6,
+        6,
+        6
+      ],
+      "seconds": 8.6
+    },
+    {
+      "rung": "2: N+H1 | H2 | H3",
+      "virtuals_kept": 0,
+      "energy_hartree": -56.16106308134367,
+      "error_kcal_mol": 81.85909659421512,
+      "qubits_per_fragment": [
+        8,
+        2,
+        2
+      ],
+      "seconds": 1.4
+    },
+    {
+      "rung": "2: N+H1 | H2 | H3",
+      "virtuals_kept": 1,
+      "energy_hartree": -56.181883404122345,
+      "error_kcal_mol": 68.7941462575299,
+      "qubits_per_fragment": [
+        10,
+        4,
+        4
+      ],
+      "seconds": 1.5
+    },
+    {
+      "rung": "2: N+H1 | H2 | H3",
+      "virtuals_kept": 2,
+      "energy_hartree": -56.20108062697085,
+      "error_kcal_mol": 56.747706546476444,
+      "qubits_per_fragment": [
+        12,
+        6,
+        6
+      ],
+      "seconds": 2.4
+    },
+    {
+      "rung": "2: N+H1 | H2 | H3",
+      "virtuals_kept": 3,
+      "energy_hartree": -56.22960840639,
+      "error_kcal_mol": 38.84625394705528,
+      "qubits_per_fragment": [
+        14,
+        6,
+        6
+      ],
+      "seconds": 4.1
+    },
+    {
+      "rung": "2: N+H1 | H2 | H3",
+      "virtuals_kept": 4,
+      "energy_hartree": -56.258550250891226,
+      "error_kcal_mol": 20.684971575013243,
+      "qubits_per_fragment": [
+        16,
+        6,
+        6
+      ],
+      "seconds": 7.1
+    },
+    {
+      "rung": "2: N+H1 | H2 | H3",
+      "virtuals_kept": 5,
+      "energy_hartree": -56.26449048055096,
+      "error_kcal_mol": 16.957421031347444,
+      "qubits_per_fragment": [
+        18,
+        6,
+        6
+      ],
+      "seconds": 9.0
+    },
+    {
+      "rung": "2: N+H1 | H2 | H3",
+      "virtuals_kept": null,
+      "energy_hartree": -56.27288042856003,
+      "error_kcal_mol": 11.692648951151254,
+      "qubits_per_fragment": [
+        24,
+        6,
+        6
+      ],
+      "seconds": 11.2
+    },
+    {
+      "rung": "3: N+H1+H2 | H3",
+      "virtuals_kept": 0,
+      "energy_hartree": -56.16106308134366,
+      "error_kcal_mol": 81.85909659421958,
+      "qubits_per_fragment": [
+        8,
+        2
+      ],
+      "seconds": 0.9
+    },
+    {
+      "rung": "3: N+H1+H2 | H3",
+      "virtuals_kept": 1,
+      "energy_hartree": -56.17729857911874,
+      "error_kcal_mol": 71.67116750312924,
+      "qubits_per_fragment": [
+        10,
+        4
+      ],
+      "seconds": 1.0
+    },
+    {
+      "rung": "3: N+H1+H2 | H3",
+      "virtuals_kept": 2,
+      "energy_hartree": -56.19896109682315,
+      "error_kcal_mol": 58.07773184969595,
+      "qubits_per_fragment": [
+        12,
+        6
+      ],
+      "seconds": 1.6
+    },
+    {
+      "rung": "3: N+H1+H2 | H3",
+      "virtuals_kept": 3,
+      "energy_hartree": -56.22986864133635,
+      "error_kcal_mol": 38.682954045986804,
+      "qubits_per_fragment": [
+        14,
+        6
+      ],
+      "seconds": 5.0
+    },
+    {
+      "rung": "3: N+H1+H2 | H3",
+      "virtuals_kept": 4,
+      "energy_hartree": -56.26273480226601,
+      "error_kcal_mol": 18.059125834097934,
+      "qubits_per_fragment": [
+        16,
+        6
+      ],
+      "seconds": 7.7
+    },
+    {
+      "rung": "3: N+H1+H2 | H3",
+      "virtuals_kept": 5,
+      "energy_hartree": -56.26895073820343,
+      "error_kcal_mol": 14.158566981975977,
+      "qubits_per_fragment": [
+        18,
+        6
+      ],
+      "seconds": 7.1
+    },
+    {
+      "rung": "3: N+H1+H2 | H3",
+      "virtuals_kept": null,
+      "energy_hartree": -56.28205174033036,
+      "error_kcal_mol": 5.93756368780692,
+      "qubits_per_fragment": [
+        26,
+        6
+      ],
+      "seconds": 13.9
+    }
+  ]
+}

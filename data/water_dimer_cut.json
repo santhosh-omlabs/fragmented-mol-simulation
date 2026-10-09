@@ -1,0 +1,157 @@
+{
+  "what": "water dimer cut into two waters, exact FCI per cluster, interaction-energy error vs CCSD(T) raw",
+  "e_int_reference_kcal_mol": -6.589213592658869,
+  "e_fci_water_hartree": -76.11991821473472,
+  "rows": [
+    {
+      "k": 0,
+      "qubits_per_fragment": [
+        12,
+        12
+      ],
+      "e_dimer_fragments_hartree": -151.97773625216522,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 170.40219584765399,
+      "primary_e_int_kcal_mol": 164.47035121005538,
+      "monomer_cluster_qubits": 8,
+      "secondary_e_int_kcal_mol": -6.11275799998369,
+      "seconds": 2.5,
+      "primary_error_kcal_mol": 171.05956480271425,
+      "secondary_error_kcal_mol": 0.4764555926751788
+    },
+    {
+      "k": 1,
+      "qubits_per_fragment": [
+        14,
+        14
+      ],
+      "e_dimer_fragments_hartree": -152.01207543835514,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 148.85403029120727,
+      "primary_e_int_kcal_mol": 142.9221856536087,
+      "monomer_cluster_qubits": 10,
+      "secondary_e_int_kcal_mol": -6.945025985982672,
+      "seconds": 2.5,
+      "primary_error_kcal_mol": 149.51139924626756,
+      "secondary_error_kcal_mol": -0.3558123933238031
+    },
+    {
+      "k": 2,
+      "qubits_per_fragment": [
+        16,
+        16
+      ],
+      "e_dimer_fragments_hartree": -152.07750425429165,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 107.79682671729351,
+      "primary_e_int_kcal_mol": 101.86498207969493,
+      "monomer_cluster_qubits": 12,
+      "secondary_e_int_kcal_mol": -4.160111047052374,
+      "seconds": 11.4,
+      "primary_error_kcal_mol": 108.45419567235379,
+      "secondary_error_kcal_mol": 2.4291025456064945
+    },
+    {
+      "k": 3,
+      "qubits_per_fragment": [
+        18,
+        18
+      ],
+      "e_dimer_fragments_hartree": -152.14757574406113,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 63.82630120779502,
+      "primary_e_int_kcal_mol": 57.89445657019644,
+      "monomer_cluster_qubits": 14,
+      "secondary_e_int_kcal_mol": -3.0042738076107307,
+      "seconds": 16.7,
+      "primary_error_kcal_mol": 64.4836701628553,
+      "secondary_error_kcal_mol": 3.584939785048138
+    },
+    {
+      "k": 4,
+      "qubits_per_fragment": [
+        20,
+        20
+      ],
+      "e_dimer_fragments_hartree": -152.21045963511955,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 24.36606217167186,
+      "primary_e_int_kcal_mol": 18.434217534073277,
+      "monomer_cluster_qubits": 16,
+      "secondary_e_int_kcal_mol": 1.0202062617427055,
+      "seconds": 21.0,
+      "primary_error_kcal_mol": 25.023431126732145,
+      "secondary_error_kcal_mol": 7.609419854401574
+    },
+    {
+      "k": 5,
+      "qubits_per_fragment": [
+        22,
+        22
+      ],
+      "e_dimer_fragments_hartree": -152.22244762827358,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 16.84348258157883,
+      "primary_e_int_kcal_mol": 10.911637943980248,
+      "monomer_cluster_qubits": 18,
+      "secondary_e_int_kcal_mol": 0.43600003483500965,
+      "seconds": 17.1,
+      "primary_error_kcal_mol": 17.500851536639118,
+      "secondary_error_kcal_mol": 7.025213627493878
+    },
+    {
+      "k": 6,
+      "qubits_per_fragment": [
+        24,
+        24
+      ],
+      "e_dimer_fragments_hartree": -152.22610247857034,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 14.550029299287354,
+      "primary_e_int_kcal_mol": 8.618184661688773,
+      "monomer_cluster_qubits": 20,
+      "secondary_e_int_kcal_mol": 5.659806210417385,
+      "seconds": 20.2,
+      "primary_error_kcal_mol": 15.207398254347641,
+      "secondary_error_kcal_mol": 12.249019803076255
+    },
+    {
+      "k": 7,
+      "qubits_per_fragment": [
+        26,
+        26
+      ],
+      "e_dimer_fragments_hartree": -152.23447959841485,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 9.29330701421842,
+      "primary_e_int_kcal_mol": 3.361462376655507,
+      "monomer_cluster_qubits": 22,
+      "secondary_e_int_kcal_mol": 1.995009442554194,
+      "seconds": 56.6,
+      "primary_error_kcal_mol": 9.950675969314375,
+      "secondary_error_kcal_mol": 8.584223035213062
+    },
+    {
+      "k": 8,
+      "qubits_per_fragment": [
+        28,
+        28
+      ],
+      "e_dimer_fragments_hartree": -152.240321790616,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 5.627275907166141,
+      "primary_e_int_kcal_mol": -0.30456873039677224,
+      "monomer_cluster_qubits": 24,
+      "secondary_e_int_kcal_mol": -0.30455506697848544,
+      "seconds": 179.0,
+      "primary_error_kcal_mol": 6.2846448622620965,
+      "secondary_error_kcal_mol": 6.284658525680383
+    },
+    {
+      "k": 9,
+      "qubits_per_fragment": [
+        30,
+        30
+      ],
+      "e_dimer_fragments_hartree": -152.24265785024613,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 4.161376296696525,
+      "primary_e_int_kcal_mol": -1.7704683408663882,
+      "monomer_cluster_qubits": null,
+      "secondary_e_int_kcal_mol": null,
+      "seconds": 649.3,
+      "primary_error_kcal_mol": 4.81874525179248,
+      "secondary_error_kcal_mol": null
+    }
+  ]
+}

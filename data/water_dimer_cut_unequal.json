@@ -1,0 +1,140 @@
+{
+  "what": "water dimer, exact FCI per cluster, interaction-energy error vs CCSD(T) raw",
+  "partition_name": "hbond-shift",
+  "partition": [
+    [
+      3,
+      4,
+      5,
+      1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "e_int_reference_kcal_mol": -6.589213592658869,
+  "e_fci_water_hartree": -76.1199182147347,
+  "rows": [
+    {
+      "k": 0,
+      "qubits_per_fragment": [
+        14,
+        10
+      ],
+      "e_dimer_fragments_hartree": -151.97773625216507,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 170.40219584774314,
+      "primary_e_int_kcal_mol": 164.47035121012672,
+      "monomer_cluster_qubits": null,
+      "secondary_e_int_kcal_mol": null,
+      "seconds": 1.0,
+      "primary_error_kcal_mol": 171.0595648027856,
+      "secondary_error_kcal_mol": null
+    },
+    {
+      "k": 1,
+      "qubits_per_fragment": [
+        16,
+        12
+      ],
+      "e_dimer_fragments_hartree": -152.01016890605598,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 150.05039742098663,
+      "primary_e_int_kcal_mol": 144.1185527833702,
+      "monomer_cluster_qubits": null,
+      "secondary_e_int_kcal_mol": null,
+      "seconds": 1.2,
+      "primary_error_kcal_mol": 150.70776637602907,
+      "secondary_error_kcal_mol": null
+    },
+    {
+      "k": 2,
+      "qubits_per_fragment": [
+        18,
+        14
+      ],
+      "e_dimer_fragments_hartree": -152.06951267134232,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 112.81162093803624,
+      "primary_e_int_kcal_mol": 106.87977630041983,
+      "monomer_cluster_qubits": null,
+      "secondary_e_int_kcal_mol": null,
+      "seconds": 13.0,
+      "primary_error_kcal_mol": 113.4689898930787,
+      "secondary_error_kcal_mol": null
+    },
+    {
+      "k": 3,
+      "qubits_per_fragment": [
+        20,
+        16
+      ],
+      "e_dimer_fragments_hartree": -152.1381712464813,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 69.72771278186075,
+      "primary_e_int_kcal_mol": 63.795868144244324,
+      "monomer_cluster_qubits": null,
+      "secondary_e_int_kcal_mol": null,
+      "seconds": 17.9,
+      "primary_error_kcal_mol": 70.38508173690319,
+      "secondary_error_kcal_mol": null
+    },
+    {
+      "k": 4,
+      "qubits_per_fragment": [
+        22,
+        18
+      ],
+      "e_dimer_fragments_hartree": -152.18133478271366,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 42.642183742463054,
+      "primary_e_int_kcal_mol": 36.71033910484664,
+      "monomer_cluster_qubits": null,
+      "secondary_e_int_kcal_mol": null,
+      "seconds": 36.8,
+      "primary_error_kcal_mol": 43.299552697505504,
+      "secondary_error_kcal_mol": null
+    },
+    {
+      "k": 5,
+      "qubits_per_fragment": [
+        24,
+        20
+      ],
+      "e_dimer_fragments_hartree": -152.20573974658765,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 27.32783706437694,
+      "primary_e_int_kcal_mol": 21.39599242676052,
+      "monomer_cluster_qubits": null,
+      "secondary_e_int_kcal_mol": null,
+      "seconds": 49.2,
+      "primary_error_kcal_mol": 27.98520601941939,
+      "secondary_error_kcal_mol": null
+    },
+    {
+      "k": 6,
+      "qubits_per_fragment": [
+        26,
+        22
+      ],
+      "e_dimer_fragments_hartree": -152.22412388573719,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 15.791615098723643,
+      "primary_e_int_kcal_mol": 9.859770461107226,
+      "monomer_cluster_qubits": null,
+      "secondary_e_int_kcal_mol": null,
+      "seconds": 53.0,
+      "primary_error_kcal_mol": 16.448984053766097,
+      "secondary_error_kcal_mol": null
+    },
+    {
+      "k": 7,
+      "qubits_per_fragment": [
+        28,
+        24
+      ],
+      "e_dimer_fragments_hartree": -152.22971891738354,
+      "total_energy_error_vs_ccsd_t_kcal_mol": 12.28067958783782,
+      "primary_e_int_kcal_mol": 6.348834950239237,
+      "monomer_cluster_qubits": null,
+      "secondary_e_int_kcal_mol": null,
+      "seconds": 106.6,
+      "primary_error_kcal_mol": 12.938048542898105,
+      "secondary_error_kcal_mol": null
+    }
+  ]
+}

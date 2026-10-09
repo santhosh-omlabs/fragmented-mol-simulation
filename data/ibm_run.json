@@ -1,0 +1,9 @@
+{
+  "what": "14-qubit N-fragment LUCJ circuit on IBM hardware, raw, no error mitigation",
+  "job_id": "db4bg7klf4us73c2h6ig",
+  "backend": "ibm_fez",
+  "shots": 4000,
+  "two_qubit_gates_cz": 1107,
+  "quantum_seconds_billed": 3,
+  "counts_file": "ibm_counts_n_fragment.json"
+}

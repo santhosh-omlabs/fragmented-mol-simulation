@@ -1,0 +1,60 @@
+{
+  "what": "fragsim vs Vayesta EWF (FCI, DMET bath), all-electron STO-3G, one fragment per water",
+  "vayesta_commit": "7f1639d",
+  "rows": [
+    {
+      "system": "dimer",
+      "partition": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "e_hf": -149.93379356333386,
+      "fragsim_hartree": -150.03254557703426,
+      "vayesta_hartree": -150.0326349228562,
+      "difference_kcal_mol": 0.0560653520576613,
+      "qubits_per_cluster": [
+        22,
+        22
+      ],
+      "seconds": 40.5
+    },
+    {
+      "system": "trimer ring",
+      "partition": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "e_hf": -224.90513783726718,
+      "fragsim_hartree": -225.05388691579853,
+      "vayesta_hartree": -225.05390586200537,
+      "difference_kcal_mol": 0.01188892477873692,
+      "qubits_per_cluster": [
+        26,
+        26,
+        26
+      ],
+      "seconds": 392.5
+    }
+  ]
+}

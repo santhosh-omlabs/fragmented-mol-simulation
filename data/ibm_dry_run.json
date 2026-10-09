@@ -1,0 +1,37 @@
+{
+  "what": "Dry run: 14-qubit N-fragment LUCJ circuit routed for a real IBM backend; nothing submitted",
+  "backend": "ibm_fez",
+  "native_two_qubit_gate": "cz",
+  "median_two_qubit_error": 0.00279228052196398,
+  "routing_seeds": {
+    "0": {
+      "two_qubit_gates": 1139,
+      "depth": 1099,
+      "circuit_seconds": 3.7460000000000004e-05
+    },
+    "1": {
+      "two_qubit_gates": 1107,
+      "depth": 1163,
+      "circuit_seconds": 3.8632000000000006e-05
+    },
+    "2": {
+      "two_qubit_gates": 1148,
+      "depth": 1239,
+      "circuit_seconds": 4.066e-05
+    },
+    "3": {
+      "two_qubit_gates": 1137,
+      "depth": 1145,
+      "circuit_seconds": 3.8248000000000004e-05
+    },
+    "4": {
+      "two_qubit_gates": 1114,
+      "depth": 1087,
+      "circuit_seconds": 3.6496000000000004e-05
+    }
+  },
+  "best_two_qubit_gates": 1107,
+  "shots": 4000,
+  "estimated_quantum_seconds": 1.1545280000000002,
+  "clean_fraction_estimate": 0.045257895682318666
+}

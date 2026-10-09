@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fragsim"
+version = "0.2.0"
+description = "Fragment-based quantum chemistry with SQD on NH3 and water clusters (6-31G): exact, simulated, gateway and IBM hardware runs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Santhosh Reddy" }]
+dependencies = ["numpy", "scipy", "pyscf>=2.6"]
+
+[project.optional-dependencies]
+quantum = ["qiskit>=2.0", "qiskit-aer", "ffsim", "qiskit-addon-sqd"]
+ibm = ["qiskit-ibm-runtime>=0.40"]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: takes tens of seconds"]
+
+[tool.ruff]
+line-length = 100

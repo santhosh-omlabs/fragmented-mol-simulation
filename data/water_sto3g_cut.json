@@ -1,0 +1,10 @@
+{
+  "what": "water dimer, STO-3G, frozen O 1s: exact FCI against two-water fragments with exact clusters, no truncation",
+  "qubits_per_cluster": [
+    20,
+    20
+  ],
+  "e_int_exact_kcal_mol": -4.9882879231544015,
+  "e_int_fragments_kcal_mol": -4.856838240001943,
+  "cut_error_kcal_mol": 0.13144968315245864
+}
